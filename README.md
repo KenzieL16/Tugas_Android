@@ -1,5 +1,7 @@
 # Tugas_Android
 My View and Views
+Ananda Bagas Kenzie Liviano
+XI RPL 3 / 02 
 
 
 ![WhatsApp Image 2023-01-29 at 08 37 31](https://user-images.githubusercontent.com/105412597/215299338-c13d862d-846b-45dd-9c7c-9f5e694a343d.jpeg)
