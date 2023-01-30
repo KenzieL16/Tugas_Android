@@ -7,9 +7,11 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
 import android.widget.Button
+import android.widget.TextView
 
-class MainActivity : AppCompatActivity(),
-    View.OnClickListener {
+class MainActivity : AppCompatActivity(), View.OnClickListener {
+    private lateinit var tvResult: TextView
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
@@ -30,6 +32,12 @@ class MainActivity : AppCompatActivity(),
         btnMoveActivityWithResult.setOnClickListener(this)
 
         tvResult = findViewById(R.id.tv_result)
+
+        if (intent.extras != null){
+            val hasil = intent.getIntExtra(MoveForResultActivity.EXTRA_SELECTED_VALUE,0)
+            val text = "Hasil = $hasil"
+            tvResult.setText(text)
+        }
 
 }
 
@@ -62,10 +70,8 @@ class MainActivity : AppCompatActivity(),
             R.id.btn_move_activity_result-> {
                 val moveForResultIntent=
                     Intent(this@MainActivity, MoveForResultActivity::class.java)
-                getResult.launch(moveForResultIntent)
+                startActivity(moveForResultIntent)
             }
-        val getResult = registerForActivityResult()
-
         }
 
     }
