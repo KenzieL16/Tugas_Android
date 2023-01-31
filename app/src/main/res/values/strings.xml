@@ -20,10 +20,10 @@
     <string name="size">Size</string>
     <string name="battery">Battery</string>
     <string name="seller">Dijual oleh</string>
-    <string name="my_name">Narenda Wicaksono</string>
+    <string name="my_name">Kenzie Liviano</string>
     <string name="buy">Beli</string>
     <string name="dummy_value">$735</string>
-
+    <string name="stock_hanya_5_buah">Stock hanya 5 buah</string>
 
 
 </resources>
