@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">AppProfile</string>
+    <string name="Nama">Ananda Bagas Kenzie Liviano</string>
+    <string name="umur">17 Tahun</string>
+    <string name="lahir">Malang, 16-12-2005</string>
+    <string name="alamat">Jl. Taman Indragiri No.14, Purwantoro, Blimbing, Kota Malang, Jawa Timur 65126, Indonesia</string>
+    <string name="sekolah">SMK Telkom Malang</string>
+    <string name="jurusan">Rekayasa Perangkat Lunak</string>
+    <string name="text">Nama saya Ananda Bagas Kenzie Liviano biasa dipanggil Kenzie saya anak pertama dari 2 bersaudara saya berumur 17 tahun saya lahir dan tinggal di Kota Malang Saya sekarang sekolah di SMK Telkom Malang Jurusan Rekayasa Perangkat Lunak basket adalah olahraga yang paling saya gemari dari beberapa olahraga lainnya</string>
+</resources>
